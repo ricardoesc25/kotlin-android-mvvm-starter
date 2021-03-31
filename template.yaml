@@ -1,0 +1,33 @@
+apiVersion: backstage.io/v1alpha1
+kind: Template
+metadata:
+  name: wize-demo-kotlin-android
+  title: Demo kotlin Android template
+  description: Create a kotlin Android project from Backstage
+  tags:
+    - demo
+    - Kotlin
+    - Android
+spec:
+  owner: wizeline-backstage-team
+  templater: cookiecutter
+  type: service
+  path: '.'
+  schema:
+    required:
+      - component_id
+      - repo_name
+      - description
+    properties:
+      component_id:
+        title: Name
+        type: string
+        description: Unique name of the component
+      repo_name:
+        title: Repository
+        type: string
+        description: Repo name of the component
+      description:
+        title: Description
+        type: string
+        description: Description of the component
