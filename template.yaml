@@ -6,8 +6,8 @@ metadata:
   description: Create a kotlin Android project from Backstage
   tags:
     - demo
-    - Kotlin
-    - Android
+    - kotlin
+    - android
 spec:
   owner: wizeline-backstage-team
   templater: cookiecutter
